@@ -1,4 +1,4 @@
-# gonotes
+# golang-notes
 golang notes
 
 ## 安装
