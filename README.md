@@ -5,7 +5,7 @@ golang notes
 
 `mac`
 
-```python
+```bash
 brew update && brew upgrade
 brew install go
 ```
@@ -24,4 +24,16 @@ CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build
 # windows上编译mac和linux二进制
 SET CGO_ENABLED=0 SET GOOS=darwin SET GOARCH=amd64 go build main.go
 SET CGO_ENABLED=0 SET GOOS=linux SET GOARCH=amd64 go build main.go
+```
+
+## 开始
+
+```bash
+go mod init src
+
+go mod tidy
+```
+
+```bash
+go run main.go
 ```
