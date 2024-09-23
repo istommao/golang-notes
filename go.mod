@@ -2,6 +2,8 @@ module src
 
 go 1.15
 
+require github.com/gofiber/fiber/v2 v2.52.5
+
 require (
 	github.com/gofiber/fiber/v2 v2.3.3
 	github.com/klauspost/compress v1.11.7 // indirect
